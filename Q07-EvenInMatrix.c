@@ -1,3 +1,5 @@
+//WAP to find all even numbers in a matrix and display its count
+
 #include <stdio.h>
 
 int main(){

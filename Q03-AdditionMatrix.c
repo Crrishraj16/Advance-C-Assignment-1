@@ -1,3 +1,5 @@
+//WAP to perform two 2-Dimensional Matrix addition
+
 #include <stdio.h>
 int main(){
     int rows,cols;
@@ -19,13 +21,9 @@ int main(){
             scanf("%d",&matrix2[i][j]);
         }
     }
-    for(int i = 0 ;i<rows;i++){
+    for(int i = 0;i<rows;i++){
         for(int j = 0;j<cols;j++){
-            int sum = 0;
-            for(int k=0;k<rows;k++){
-                sum += matrix[i][k] * matrix2[k][j];
-            }
-            printf("%d",sum);
+            printf("%d",matrix[i][j] + matrix2[i][j]);
         }
         printf("\n");
     }

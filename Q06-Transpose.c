@@ -1,3 +1,6 @@
+//WAP to perform Transpose of Matrix
+
+
 #include <stdio.h>
 
 int main(){
